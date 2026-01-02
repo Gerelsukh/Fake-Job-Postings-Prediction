@@ -54,6 +54,8 @@ The model demonstrates strong performance in distinguishing fraudulent job posti
 git clone https://github.com/YOUR_USERNAME/Fake-Job-Postings-Prediction.git
 cd Fake-Job-Postings-Prediction
 
-pip install -r requirements.txt
+python -m venv venv        # create venv (ONCE)
+source venv/bin/activate  # activate (EVERY SESSION)
+pip install pandas numpy scikit-learn
 
 python src/train.py
