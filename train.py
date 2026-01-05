@@ -1,8 +1,13 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score
+from sklearn.model_selection import train_test_split 
+from sklearn.feature_extraction.text import TfidfVectorizer 
+from sklearn.linear_model import LogisticRegression 
+from sklearn.metrics import roc_auc_score 
+
+#https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
+#https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
+#https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+#https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html
 
 # Load data
 train = pd.read_csv("fake_job_postings_train.csv")
